@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro</title>
+    <style>
+        body {
+            background-color: bisque;
+            
+        }
+
+        h1{
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+    <h1>Cadastro de imigrantes</h1>
+    Cadastro<input type="text" name="textopessoa" id="textopessoa" >
+            <input type="button" value="verificar" onclick="testar()">
+            <div id="resultado">
+
+            </div>
+
+</body>
+    <script>
+    
+        function testar() {
+            var textopessoa1 = document.querySelector('input#textopessoa');
+            var resultado = document.querySelector('div#resultado');
+            var valorDigitado = textopessoa1.value;
+        
+            resultado.innerHTML = `Você digitou: ${valorDigitado}`;
+
+         
+        
+            if (valorDigitado.toLowerCase() === 'brasil') {
+            resultado.innerHTML +='<br>Brasileiro';
+
+        }   else {
+            resultado.innerHTML +='<br>Estrangeiro';
+        }
+    
+        }
+
+    </script>
+</html>

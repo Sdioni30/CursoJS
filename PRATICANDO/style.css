@@ -1,0 +1,34 @@
+*{
+   margin: auto 0;
+    padding: 0;
+   font-family: 'Times New Roman', Times, serif; /*Fonte dos textos*/
+}
+
+body{
+    background-color: rgb(154, 182, 189);
+}
+
+#menu-horizontal  li a{ /*mexer na div menu-horizontal*/
+    list-style-type: none;
+    padding: 0;
+    background-color: rgb(123, 140, 149);
+}
+
+#menu-horizontal  li a {  /*Mexer em todos os filhos de ul*/
+    display: inline; /*Alinhar os itens do menu lado a lado*/
+
+}
+
+#menu-horizontal  li a {/*Todos os filhos de li que sejam a, que são uma ancora, quero que aplique um novo estilo */
+    color: rgb(239, 239, 239); /*Mudar a cor das letras em tudo que tiver dentro da div*/
+    padding: 20px; /*Distancia entre uma palavra e outra*/
+    display: inline-block; /*Utilizar isso pra quando eu passar o mouse esse item também seja clicavel (naõ entendi muito bem) */
+    text-decoration: none; /*Retira o underline que fica em baixo das letras*/
+    transition: background .6s; /*Cria o efeito de fade quando vc coloca ou tira o mouse de cima*/
+}
+
+#menu-horizontal  li a:hover {/*Altera a cor do background do  texto quando passa o mouse em cima*/
+    background-color: rgb(42, 152, 199); 
+}
+
+

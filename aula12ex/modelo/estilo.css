@@ -1,0 +1,27 @@
+body {
+            background-color: rgb(3, 31, 60);
+        }
+
+        header{   /*  Aqui criei o titulo no meio da pagina */
+            text-align: center;
+            font: 50px TimesNewRoman;
+            color: aliceblue;
+            
+        }
+        
+        footer{  /*  Aqui criei o @CursoemVideo, o footer serve para criar rodapés, direitos autorais etc.. */
+            text-align: center;
+            font: italic;
+        }
+
+        section  {
+      
+      background-color: white;
+      border-radius: 10px; /* Deixa as bordas arredondadas  */
+      padding: 150px; /* Altera tamnho para baixo   */
+      width: 150px; /* Altera tamanho para os lados  */
+      margin: auto; /*  centralizei o quadro branco na tela */
+      box-shadow: 5px 5px 10px black; /*  Aqui criei o sombreado preto ao redor da caixa branca */
+        }
+
+    
